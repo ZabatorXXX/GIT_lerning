@@ -17,7 +17,7 @@ mail_type = ['Gmail', 'Yahoo', 'Hotmail', 'Outlook', 'iCloud', 'Mozilla', 'Mail'
 
 mail_code = ['.se', '.com', '.az', '.eu', '.net', '.dk', '.uk']
 
-for num in range(20):
+for num in range(15):
     first = random.choice(first_names)
     last = random.choice(last_names)
 

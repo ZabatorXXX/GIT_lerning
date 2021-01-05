@@ -1,1 +1,20 @@
 
+1. Vad menas med versionshantering? 
+
+2. Vad menas med en “merge” ? 
+
+3. Om du vill merga ihop två brancher från terminalen, hur gör du då? 
+
+4. Nämn ett alternativ till Git. 
+
+5. Är Git ett verktyg som erbjuds av Github, eller kan man använda Git på andra ställen? 
+
+6. Vad menas med en “merge conflict” och när kan det uppstå? 
+
+7. Om du vill se en lista med tidigare ändringar / commits i ett Git repo via terminalen, vad skriver du? 
+
+8. När du skriver “git init” i en mapp, på vilket sätt ändras då mappen? 
+
+9. Varför vill man dela ibland upp sina ändringar i separata “brancher”? 
+
+10. Nämn ett Git command som inte gör några förändringar på remote servern (Github är tex en remote server), Nämn även ett Git command som gör förändringar på remote servern. 

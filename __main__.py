@@ -1,11 +1,11 @@
 ''' Super simple module to create basic random data for tutorials'''
 import random
 
-first_names = ['Iscah', 'Mirko', 'Parker', 'Edwyn', 'Octavia']
+first_names = ['Iscah', 'Mirko', 'Parker', 'Edwyn', 'Octavia', 'Jonny']
 
-last_names = ['Kohar', 'Somhairle', 'Ellie', 'Joanne', 'Silvanus']
+last_names = ['Kohar', 'Somhairle', 'Ellie', 'Joanne', 'Silvanus', 'Waern']
 
-street_names = ['Fox Way', 'Star Way', 'Milky Way', 'Greenfield Lane', 'Gravel Lane', 'Dirt Lane']
+street_names = ['Fox Way', 'Star Way', 'Milky Way', 'Greenfield Lane', 'Gravel Lane', 'Dirt Lane', 'Dalavaegen']
 
 road_type = ['Avenue', 'Bay', 'Campus', 'Street'] 
 
@@ -13,7 +13,7 @@ cities = ['Istanbul', 'Moscow', 'London', 'Berlin', 'Warsaw', 'Łódź', 'Zagreb
 
 fake_states = ['XL', 'GI', 'AL', 'FI', 'AD', 'ML', 'OX', 'EC']
 
-mail_type = ['Gmail', 'Yahoo', 'Hotmail', 'Outlook', 'iCloud', 'Mozilla', 'Mail']
+mail_type = ['Gmail', 'Yahoo', 'Hotmail', 'Outlook', 'iCloud', 'Mozilla', 'Mail', 'Home']
 
 mail_code = ['.se', '.com', '.az', '.eu', '.net', '.dk', '.uk']
 

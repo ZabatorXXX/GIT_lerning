@@ -1,20 +1,50 @@
+1. Vad menas med versionshantering?
+Versionshantering gör det möjligt att kunna analysera sitt arbete utifrån olika perspektiv.
+Motiverar händelserikt hur arbetet har gått.
+Genom att ḱunna se projektets första kod rad till den sista kod raden i slutversionen.
+Möjligheten att gå tillbaka till tidigare version om man har överarbetat ett arbete. Fungerar som en journal.
+Arkivet visar när förändringen gjordes och av vem.
 
-1. Vad menas med versionshantering? 
+2. Vad menas med en merge?
+Att man binder ihop två brancher till en.
 
-2. Vad menas med en “merge” ? 
+3. Om du vill merga ihop två brancher från terminalen, hur gör du då?
+git merge [<options>] [<commit>...]
+"git merge master" för att kunna merga med Mastern. 
 
-3. Om du vill merga ihop två brancher från terminalen, hur gör du då? 
+4. Nämn ett alternativ till Git.
+Olika alternativ skulle kunna vara: GitLab, TortoiseGit, Gerrit och Bitbucket.
 
-4. Nämn ett alternativ till Git. 
+5. Är Git ett verktyg som erbjuds av Github, eller kan man använda Git på andra ställen?
+Git är en funktion som används på flera ställen.
 
-5. Är Git ett verktyg som erbjuds av Github, eller kan man använda Git på andra ställen? 
+6. Vad menas med en “merge conflict” och när kan det uppstå?
+När man mergar ihop brancher kan proccesen krocka i själva ihop kopplingen. Problemet uppstår främst när två olika brancher har gemensam kod på samma kod rad.
 
-6. Vad menas med en “merge conflict” och när kan det uppstå? 
+7. Om du vill se en lista med tidigare ändringar / commits i ett Git repo via terminalen, vad skriver du?
 
-7. Om du vill se en lista med tidigare ändringar / commits i ett Git repo via terminalen, vad skriver du? 
+Man skriver git log(Q om man vill gå snabbaste vägen tillbaka).
+Eller om man vill ha det snyggare/enklare att läsa git log –oneline || (-- git log –pretty=oneline). Finns också en graph.
 
-8. När du skriver “git init” i en mapp, på vilket sätt ändras då mappen? 
+ 
 
-9. Varför vill man dela ibland upp sina ändringar i separata “brancher”? 
+8. När du skriver “git init” i en mapp, på vilket sätt ändras då mappen?
 
-10. Nämn ett Git command som inte gör några förändringar på remote servern (Github är tex en remote server), Nämn även ett Git command som gör förändringar på remote servern. 
+Att man skapar ett Git repository. En mapp som ligger lokalt är inte alltid ett Git repository.
+Därför skriver vi git init som då gör mappen till ett Git repository.
+
+9. Varför vill man dela ibland upp sina ändringar i separata “brancher”?
+
+Utav olika skäl:
+
+1. Man vill skapa en ny funktion. Därför skriver man kod, till en början i en egen bransch, eftersom man fortfarande vill kunna använda den fungerande koden man kanske har.
+
+2. När man är flera som arbetar i ett och samma projekt. Då vill man inte att den egna koden ska skapa förhinder för någon annans kod att kunna köras.
+
+
+10. Nämn ett Git command som inte gör några förändringar på remote servern (Github är tex en remote server), nämn även ett Git command som gör förändring på en remote server.
+ 
+
+Jag använder mig utav om man vill ha data från github.
+
+Medan man använder git pull git push, när man skickar data till servern(Github)

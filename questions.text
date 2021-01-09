@@ -45,6 +45,6 @@ Utav olika skäl:
 10. Nämn ett Git command som inte gör några förändringar på remote servern (Github är tex en remote server), nämn även ett Git command som gör förändring på en remote server.
  
 
-Jag använder mig utav om man vill ha data från github.
+Jag använder mig utav git pull om man vill ha data från github.
 
 Medan man använder git pull git push, när man skickar data till servern(Github)
